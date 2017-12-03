@@ -34,8 +34,6 @@ int main(void)
 
             /* Create a log message */
             NRF_LOG_INFO("BLINKING LED n°%d", i);
-            /* Process the log */
-            NRF_LOG_PROCESS();
 
             nrf_delay_ms(500);
         }
