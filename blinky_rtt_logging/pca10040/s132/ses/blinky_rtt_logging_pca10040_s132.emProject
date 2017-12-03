@@ -21,7 +21,7 @@
       gcc_entry_point="Reset_Handler"
       macros="CMSIS_CONFIG_TOOL=../../../../../../external_tools/cmsisconfig/CMSIS_Configuration_Wizard.jar"
       debug_register_definition_file="../../../../../../svd/nrf52.svd"
-      debug_additional_load_file="../../../../../../components/softdevice/s132/hex/s132_nrf52_5.0.0_softdevice.hex"
+      debug_additional_load_file=""
       debug_start_from_entry_point_symbol="No"
       linker_output_format="hex"
       linker_printf_width_precision_supported="Yes"
