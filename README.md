@@ -9,10 +9,12 @@ How to use
 -------------
 Open the example like all the other ones from the official SDK using [Segger Embedded Studio](https://www.segger.com/downloads/embedded-studio/).
 
-Once you have uploaded this code to your board, open two terminals and run the following commands :
+Once you have plugged your board,open two terminals and run the following commands :
 
  - Terminal #1 : `JLinkExe -device NRF52 -if SWD -speed 4000 -autoconnect 1`
  - Terminal #2 : `JLinkRTTClient`
+ 
+You can then proceed and Upload and Run the example onto the board.
 
 Configuration
 -------------------
